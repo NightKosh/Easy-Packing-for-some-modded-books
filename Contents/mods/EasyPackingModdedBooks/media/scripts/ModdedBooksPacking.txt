@@ -1,0 +1,510 @@
+module EasyPackingModdedBooks
+{
+
+	item pkBookFitness
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Fitness Books,
+		Icon			= PFitnessBook,
+	}
+	
+	item pkStrength
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Strength Books,
+		Icon			= PStrengthBook,
+	}
+
+	/* ******************************** Agility ******************************** */
+
+	item pkSprinting
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Sprinting Books,
+		Icon			= PSprintingBook,
+	}
+	
+	item pkLightfooted
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Lightfooted Books,
+		Icon			= PLightfootedBook,
+	}
+	
+	item pkNimble
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Nimble Books,
+		Icon			= PNimbleBook,
+	}
+	
+	item pkSneaking
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Sneaking Books,
+		Icon			= PSneakingBook,
+	}
+
+	/* ******************************** Combat ******************************** */
+
+	item pkAxe
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Axe Books,
+		Icon			= PAxeBook,
+	}
+	
+	item pkLongBlunt
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Long Blunt Books,
+		Icon			= PLongBluntBook,
+	}
+	
+	item pkShortBlunt
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Short Blunt Books,
+		Icon			= PShortBluntBook,
+	}
+	
+	item pkLongBlade
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Long Blade Books,
+		Icon			= PLongBladeBook,
+	}
+	
+	item pkSmallBlade
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Small Blade Books,
+		Icon			= PSmallBladeBook,
+	}
+
+	item pkSpear
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Spear Books,
+		Icon			= PSpearBook,
+	}
+
+	item pkMaintenance
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Maintenance Books,
+		Icon			= PMaintenanceBook,
+	}
+
+	/* ******************************** Firearm ******************************** */
+
+	item pkAiming
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Aiming Books,
+		Icon			= PAimingBook,
+	}
+
+	item pkReloading
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Reloading Books,
+		Icon			= PReloadingBook,
+	}
+
+	/* ******************************** Driving ******************************** */
+
+	item pkDriving
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Driving Books,
+		Icon			= PDrivingBook,
+	}
+
+	/* ************************ RECIPES PACK AND UNPACK ************************ */
+
+	recipe Pack Fitness Skill Books
+	{
+		BookFitness1,
+		BookFitness2,
+		BookFitness3,
+		BookFitness4,
+		BookFitness5,
+		
+		Result:pkBookFitness,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Fitness Skill Books
+	{
+		pkBookFitness,
+		
+		Result:BookFitness1,
+		OnCreate:Recipe.OnCreate.UnpackFitnessSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Strength Skill Books
+	{
+		BookStrength1,
+		BookStrength2,
+		BookStrength3,
+		BookStrength4,
+		BookStrength5,
+		
+		Result:pkStrength,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Strength Skill Books
+	{
+		pkStrength,
+		
+		Result:BookStrength1,
+		OnCreate:Recipe.OnCreate.UnpackStrengthSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Sprinting Skill Books
+	{
+		BookSprinting1,
+		BookSprinting2,
+		BookSprinting3,
+		BookSprinting4,
+		BookSprinting5,
+		
+		Result:pkSprinting,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Sprinting Skill Books
+	{
+		pkSprinting,
+		
+		Result:BookSprinting1,
+		OnCreate:Recipe.OnCreate.UnpackSprintingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Lightfooted Skill Books
+	{
+		BookLightfooted1,
+		BookLightfooted2,
+		BookLightfooted3,
+		BookLightfooted4,
+		BookLightfooted5,
+		
+		Result:pkLightfooted,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Lightfooted Skill Books
+	{
+		pkLightfooted,
+		
+		Result:BookLightfooted1,
+		OnCreate:Recipe.OnCreate.UnpackLightfootedSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Nimble Skill Books
+	{
+		BookNimble1,
+		BookNimble2,
+		BookNimble3,
+		BookNimble4,
+		BookNimble5,
+		
+		Result:pkNimble,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Nimble Skill Books
+	{
+		pkNimble,
+		
+		Result:BookNimble1,
+		OnCreate:Recipe.OnCreate.UnpackNimbleSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Sneaking Skill Books
+	{
+		BookSneaking1,
+		BookSneaking2,
+		BookSneaking3,
+		BookSneaking4,
+		BookSneaking5,
+		
+		Result:pkSneaking,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Sneaking Skill Books
+	{
+		pkSneaking,
+		
+		Result:BookSneaking1,
+		OnCreate:Recipe.OnCreate.UnpackSneakingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Axe Skill Books
+	{
+		BookAxe1,
+		BookAxe2,
+		BookAxe3,
+		BookAxe4,
+		BookAxe5,
+		
+		Result:pkAxe,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Axe Skill Books
+	{
+		pkAxe,
+		
+		Result:BookAxe1,
+		OnCreate:Recipe.OnCreate.UnpackAxeSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Long Blunt Skill Books
+	{
+		BookBlunt1,
+		BookBlunt2,
+		BookBlunt3,
+		BookBlunt4,
+		BookBlunt5,
+		
+		Result:pkLongBlunt,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Long Blunt Skill Books
+	{
+		pkLongBlunt,
+		
+		Result:BookBlunt1,
+		OnCreate:Recipe.OnCreate.UnpackLongBluntSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Short Blunt Skill Books
+	{
+		BookSmallBlunt1,
+		BookSmallBlunt2,
+		BookSmallBlunt3,
+		BookSmallBlunt4,
+		BookSmallBlunt5,
+		
+		Result:pkShortBlunt,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Short Blunt Skill Books
+	{
+		pkShortBlunt,
+		
+		Result:BookSmallBlunt1,
+		OnCreate:Recipe.OnCreate.UnpackShortBluntSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Long Blade Skill Books
+	{
+		BookLongBlade1,
+		BookLongBlade2,
+		BookLongBlade3,
+		BookLongBlade4,
+		BookLongBlade5,
+		
+		Result:pkLongBlade,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Long Blade Skill Books
+	{
+		pkLongBlade,
+		
+		Result:BookLongBlade1,
+		OnCreate:Recipe.OnCreate.UnpackLongBladeSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Small Blade Skill Books
+	{
+		BookSmallBlade1,
+		BookSmallBlade2,
+		BookSmallBlade3,
+		BookSmallBlade4,
+		BookSmallBlade5,
+		
+		Result:pkSmallBlade,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Small Blade Skill Books
+	{
+		pkSmallBlade,
+		
+		Result:BookSmallBlade1,
+		OnCreate:Recipe.OnCreate.UnpackSmallBladeSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	recipe Pack Spear Skill Books
+	{
+		BookSpear1,
+		BookSpear2,
+		BookSpear3,
+		BookSpear4,
+		BookSpear5,
+
+		Result:pkSpear,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Spear Skill Books
+	{
+		pkSpear,
+
+		Result:BookSpear1,
+		OnCreate:Recipe.OnCreate.UnpackSpearSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	recipe Pack Maintenance Skill Books
+	{
+		BookMaintenance1,
+		BookMaintenance2,
+		BookMaintenance3,
+		BookMaintenance4,
+		BookMaintenance5,
+
+		Result:pkMaintenance,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Maintenance Skill Books
+	{
+		pkMaintenance,
+
+		Result:BookMaintenance1,
+		OnCreate:Recipe.OnCreate.UnpackMaintenanceSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	recipe Pack Aiming Skill Books
+	{
+		BookAiming1,
+		BookAiming2,
+		BookAiming3,
+		BookAiming4,
+		BookAiming5,
+
+		Result:pkAiming,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Aiming Skill Books
+	{
+		pkAiming,
+
+		Result:BookAiming1,
+		OnCreate:Recipe.OnCreate.UnpackAimingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	recipe Pack Reloading Skill Books
+	{
+		BookReloading1,
+		BookReloading2,
+		BookReloading3,
+		BookReloading4,
+		BookReloading5,
+
+		Result:pkReloading,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Reloading Skill Books
+	{
+		pkReloading,
+
+		Result:BookReloading1,
+		OnCreate:Recipe.OnCreate.UnpackReloadingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	recipe Pack Driving Skill Books
+	{
+		DrivingSkill_BookDriving1,
+		DrivingSkill_BookDriving2,
+		DrivingSkill_BookDriving3,
+		DrivingSkill_BookDriving4,
+		DrivingSkill_BookDriving5,
+
+		Result:pkDriving,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Driving Skill Books
+	{
+		pkDriving,
+
+		Result:DrivingSkill_BookDriving1,
+		OnCreate:Recipe.OnCreate.UnpackDrivingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+}
