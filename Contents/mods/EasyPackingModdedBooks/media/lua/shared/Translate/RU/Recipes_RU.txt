@@ -1,0 +1,40 @@
+Recipe_RU = {
+Recipe_Pack_Fitness_Skill_Books = "Упаковать книги по фитнесу",
+Recipe_Unpack_Fitness_Skill_Books = "Распаковать книги по фитнесу",
+Recipe_Pack_Strength_Skill_Books = "Упаковать книги по силе",
+Recipe_Unpack_Strength_Skill_Books = "Распаковать книги по силе",
+
+
+Recipe_Pack_Sprinting_Skill_Books = "Упаковать книги по бегу",
+Recipe_Unpack_Sprinting_Skill_Books = "Распаковать книги по бегу",
+Recipe_Pack_Lightfooted_Skill_Books = "Упаковать книги по лёгкому шагу",
+Recipe_Unpack_Lightfooted_Skill_Books = "Распаковать книги по лёгкому шагу",
+Recipe_Pack_Nimble_Skill_Books = "Упаковать книги по проворности",
+Recipe_Unpack_Nimble_Skill_Books = "Распаковать книги по проворности",
+Recipe_Pack_Sneaking_Skill_Books = "Упаковать книги по скрытности",
+Recipe_Unpack_Sneaking_Skill_Books = "Распаковать книги по скрытности",
+
+
+Recipe_Pack_Axe_Skill_Books = "Упаковать книги по топорам",
+Recipe_Unpack_Axe_Skill_Books = "Распаковать книги по топорам",
+Recipe_Pack_Long_Blunt_Skill_Books = "Упаковать книги по длинному дробящему оружию",
+Recipe_Unpack_Long_Blunt_Skill_Books = "Распаковать книги по длинному дробящему оружию",
+Recipe_Pack_Short_Blunt_Skill_Books = "Упаковать книги по короткому дробящему оружию",
+Recipe_Unpack_Short_Blunt_Skill_Books = "Распаковать книги по короткому дробящему оружию",
+Recipe_Pack_Long_Blade_Skill_Books = "Упаковать книги по длинному режущему оружию",
+Recipe_Unpack_Long_Blade_Skill_Books = "Распаковать книги по длинному режущему оружию",
+Recipe_Pack_Small_Blade_Skill_Books = "Упаковать книги по короткому режущему оружию",
+Recipe_Unpack_Small_Blade_Skill_Books = "Распаковать книги по короткому режущему оружию",
+Recipe_Pack_Spear_Skill_Books = "Упаковать книги по копьям",
+Recipe_Unpack_Spear_Skill_Books = "Распаковать книги по копьям",
+Recipe_Pack_Maintenance_Skill_Books = "Упаковать книги по прочности",
+Recipe_Unpack_Maintenance_Skill_Books = "Распаковать книги по прочности",
+
+Recipe_Pack_Aiming_Skill_Books = "Упаковать книги по стрельбе",
+Recipe_Unpack_Aiming_Skill_Books = "Распаковать книги по стрельбе",
+Recipe_Pack_Reloading_Skill_Books = "Упаковать книги по перезарядке",
+Recipe_Unpack_Reloading_Skill_Books = "Распаковать книги по перезарядке",
+
+Recipe_Pack_Driving_Skill_Books = "Упаковать книги по вождению",
+Recipe_Unpack_Driving_Skill_Books = "Распаковать книги по вождению",
+}

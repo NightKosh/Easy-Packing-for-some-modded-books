@@ -1,0 +1,22 @@
+Items_RU = {
+DisplayName_Bundle_of_Fitness_Books = "”паковка книг по фитнесу",
+DisplayName_Bundle_of_Strength_Books = "”паковка книг по силе",
+
+DisplayName_Bundle_of_Sprinting_Books = "”паковка книг по бегу",
+DisplayName_Bundle_of_Lightfooted_Books = "”паковка книг по лЄгкому шагу",
+DisplayName_Bundle_of_Nimble_Books = "”паковка книг по проворности",
+DisplayName_Bundle_of_Sneaking_Books = "”паковка книг по скрытности",
+
+DisplayName_Bundle_of_Axe_Books = "”паковка книг по топорам",
+DisplayName_Bundle_of_Long_Blunt_Books = "”паковка книг по длинному дроб€щему оружию",
+DisplayName_Bundle_of_Short_Blunt_Books = "”паковка книг по короткому дроб€щему оружию",
+DisplayName_Bundle_of_Long_Blade_Books = "”паковка книг по длинному режущему оружию",
+DisplayName_Bundle_of_Small_Blade_Books = "”паковка книг по короткому режущему оружию",
+DisplayName_Bundle_of_Spear_Books = "”паковка книг по копь€м",
+DisplayName_Bundle_of_Maintenance_Books = "”паковка книг по прочности",
+
+DisplayName_Bundle_of_Aiming_Books = "”паковка книг по стрельбе",
+DisplayName_Bundle_of_Reloading_Books = "”паковка книг по перезар€дке",
+
+DisplayName_Bundle_of_Driving_Books = "”паковка книг по вождению",
+}
