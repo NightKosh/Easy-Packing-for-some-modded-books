@@ -13,7 +13,7 @@ function Recipe.OnCreate.UnpackStrengthSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookStrength5");
 end
 
-
+--Agility
 function Recipe.OnCreate.UnpackSprintingSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookSprinting2");
 	player:getInventory():AddItem("AllSkillBooks.BookSprinting3");
@@ -42,7 +42,7 @@ function Recipe.OnCreate.UnpackSneakingSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookSneaking5");
 end
 
-
+--Combat
 function Recipe.OnCreate.UnpackAxeSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookAxe2");
 	player:getInventory():AddItem("AllSkillBooks.BookAxe3");
@@ -92,7 +92,7 @@ function Recipe.OnCreate.UnpackMaintenanceSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookMaintenance5");
 end
 
-
+--Firearm
 function Recipe.OnCreate.UnpackAimingSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookAiming2");
 	player:getInventory():AddItem("AllSkillBooks.BookAiming3");
@@ -107,10 +107,18 @@ function Recipe.OnCreate.UnpackReloadingSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookReloading5");
 end
 
-
+--Driving
 function Recipe.OnCreate.UnpackDrivingSkillBook(items, result, player)
 	player:getInventory():AddItem("DrivingSkill.DrivingSkill_BookDriving2");
 	player:getInventory():AddItem("DrivingSkill.DrivingSkill_BookDriving3");
 	player:getInventory():AddItem("DrivingSkill.DrivingSkill_BookDriving4");
 	player:getInventory():AddItem("DrivingSkill.DrivingSkill_BookDriving5");
+end
+
+--Scavenging
+function Recipe.OnCreate.UnpackScavengingSkillBook(items, result, player)
+	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging2");
+	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging3");
+	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging4");
+	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging5");
 end

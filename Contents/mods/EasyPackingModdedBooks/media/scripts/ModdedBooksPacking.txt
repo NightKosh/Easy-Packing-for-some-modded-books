@@ -137,7 +137,21 @@ module EasyPackingModdedBooks
 		Icon			= PDrivingBook,
 	}
 
+	/* ******************************** Scavenging ******************************** */
+
+	item pkScavenging
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Scavenging Books,
+		Icon			= PScavengingBook,
+	}
+
+	/* ************************ *********************** ************************ */
 	/* ************************ RECIPES PACK AND UNPACK ************************ */
+	/* ************************ *********************** ************************ */
+
+	/* ******************************** Agility ******************************** */
 
 	recipe Pack Fitness Skill Books
 	{
@@ -276,6 +290,8 @@ module EasyPackingModdedBooks
 		Time:100.0,
 		Category:Storage,
 	}
+
+	/* ******************************** Combat ******************************** */
 	
 	recipe Pack Axe Skill Books
 	{
@@ -438,6 +454,8 @@ module EasyPackingModdedBooks
 		Category:Storage,
 	}
 
+	/* ******************************** Firearm ******************************** */
+
 	recipe Pack Aiming Skill Books
 	{
 		BookAiming1,
@@ -484,6 +502,8 @@ module EasyPackingModdedBooks
 		Category:Storage,
 	}
 
+	/* ******************************** Driving ******************************** */
+
 	recipe Pack Driving Skill Books
 	{
 		DrivingSkill_BookDriving1,
@@ -503,6 +523,31 @@ module EasyPackingModdedBooks
 
 		Result:DrivingSkill_BookDriving1,
 		OnCreate:Recipe.OnCreate.UnpackDrivingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	/* ******************************** Scavenging ******************************** */
+
+	recipe Pack Scavenging Skill Books
+	{
+		ScavengerSkill_BookScavenging1,
+		ScavengerSkill_BookScavenging2,
+		ScavengerSkill_BookScavenging3,
+		ScavengerSkill_BookScavenging4,
+		ScavengerSkill_BookScavenging5,
+
+		Result:pkScavenging,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Scavenging Skill Books
+	{
+		pkScavenging,
+
+		Result:ScavengerSkill_BookScavenging1,
+		OnCreate:Recipe.OnCreate.UnpackScavengingSkillBook,
 		Time:100.0,
 		Category:Storage,
 	}

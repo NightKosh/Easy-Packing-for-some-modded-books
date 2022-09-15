@@ -1,6 +1,6 @@
 version=1
 id=2857301610
 title=Easy Packing For Some modded books
-description=This mod allows you to pack books from "All Skill Books" and "Driving Skill" mods.
+description=This mod allows you to pack books from "All Skill Books", "Driving Skill" and "Scavenger Skill" mods.
 tags=Build 41;Items;Literature
 visibility=public
