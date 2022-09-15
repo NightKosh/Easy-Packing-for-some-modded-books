@@ -28,6 +28,13 @@ function Recipe.OnCreate.UnpackLightfootedSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookLightfooted5");
 end
 
+function Recipe.OnCreate.UnpackLightfootSkillBook(items, result, player)
+	player:getInventory():AddItem("Base.BookLightfoot2");
+	player:getInventory():AddItem("Base.BookLightfoot3");
+	player:getInventory():AddItem("Base.BookLightfoot4");
+	player:getInventory():AddItem("Base.BookLightfoot5");
+end
+
 function Recipe.OnCreate.UnpackNimbleSkillBook(items, result, player)
 	player:getInventory():AddItem("AllSkillBooks.BookNimble2");
 	player:getInventory():AddItem("AllSkillBooks.BookNimble3");
@@ -121,4 +128,12 @@ function Recipe.OnCreate.UnpackScavengingSkillBook(items, result, player)
 	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging3");
 	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging4");
 	player:getInventory():AddItem("ScavengerSkill.ScavengerSkill_BookScavenging5");
+end
+
+--BookReading
+function Recipe.OnCreate.UnpackReadingSkillBook(items, result, player)
+	player:getInventory():AddItem("Base.BookReading2");
+	player:getInventory():AddItem("Base.BookReading3");
+	player:getInventory():AddItem("Base.BookReading4");
+	player:getInventory():AddItem("Base.BookReading5");
 end

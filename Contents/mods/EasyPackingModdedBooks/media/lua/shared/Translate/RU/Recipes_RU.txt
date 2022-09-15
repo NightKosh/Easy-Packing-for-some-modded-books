@@ -40,4 +40,7 @@ Recipe_Unpack_Driving_Skill_Books = "Распаковать книги по вождению",
 
 Recipe_Pack_Scavenging_Skill_Books = "Упаковать книги по поиску",
 Recipe_Unpack_Scavenging_Skill_Books = "Распаковать книги по поиску",
+
+Recipe_Pack_Reading_Skill_Books = "Упаковать книги по чтению",
+Recipe_Unpack_Reading_Skill_Books = "Распаковать книги по чтению",
 }

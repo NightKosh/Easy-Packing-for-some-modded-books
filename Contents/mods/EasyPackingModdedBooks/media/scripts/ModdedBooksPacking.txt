@@ -34,6 +34,15 @@ module EasyPackingModdedBooks
 		DisplayName		= Bundle of Lightfooted Books,
 		Icon			= PLightfootedBook,
 	}
+
+	/* ******* Lightfoot from "Better Literacy" mod ******* */
+	item pkLightfoot
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Lightfooted Books,
+		Icon			= PLightfootedBook,
+	}
 	
 	item pkNimble
 	{
@@ -147,6 +156,16 @@ module EasyPackingModdedBooks
 		Icon			= PScavengingBook,
 	}
 
+	/* ******************************** Reading ******************************** */
+
+	item pkReading
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Reading Books,
+		Icon			= PReadingBook,
+	}
+
 	/* ************************ *********************** ************************ */
 	/* ************************ RECIPES PACK AND UNPACK ************************ */
 	/* ************************ *********************** ************************ */
@@ -244,7 +263,31 @@ module EasyPackingModdedBooks
 		Time:100.0,
 		Category:Storage,
 	}
-	
+
+	/* ******* Lightfoot from "Better Literacy" mod ******* */
+	recipe Pack Lightfooted Skill Books
+	{
+		BookLightfoot1,
+		BookLightfoot2,
+		BookLightfoot3,
+		BookLightfoot4,
+		BookLightfoot5,
+
+		Result:pkLightfoot,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Lightfooted Skill Books
+	{
+		pkLightfoot,
+
+		Result:BookLightfoot1,
+		OnCreate:Recipe.OnCreate.UnpackLightfootSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
 	recipe Pack Nimble Skill Books
 	{
 		BookNimble1,
@@ -548,6 +591,31 @@ module EasyPackingModdedBooks
 
 		Result:ScavengerSkill_BookScavenging1,
 		OnCreate:Recipe.OnCreate.UnpackScavengingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+
+	/* ******************************** Reading ******************************** */
+
+	recipe Pack Reading Skill Books
+	{
+		BookReading1,
+		BookReading2,
+		BookReading3,
+		BookReading4,
+		BookReading5,
+
+		Result:pkReading,
+		Time:150.0,
+		Category:Storage,
+	}
+
+	recipe Unpack Reading Skill Books
+	{
+		pkReading,
+
+		Result:BookReading1,
+		OnCreate:Recipe.OnCreate.UnpackReadingSkillBook,
 		Time:100.0,
 		Category:Storage,
 	}

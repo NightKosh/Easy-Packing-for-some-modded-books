@@ -21,4 +21,6 @@ DisplayName_Bundle_of_Reloading_Books = "”паковка книг по перезар€дке",
 DisplayName_Bundle_of_Driving_Books = "”паковка книг по вождению",
 
 DisplayName_Bundle_of_Scavenging_Books = "”паковка книг по поиску",
+
+DisplayName_Bundle_of_Reading_Books = "”паковка книг по чтению",
 }

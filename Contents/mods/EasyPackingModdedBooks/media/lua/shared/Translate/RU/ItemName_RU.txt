@@ -21,4 +21,6 @@ ItemName_RU = {
 	ItemName_Packing.pkDriving = "”паковка книг по вождению",
 
 	ItemName_Packing.pkScavenging = "”паковка книг по поиску",
+
+	ItemName_Packing.pkReading = "”паковка книг по чтению",
 }
